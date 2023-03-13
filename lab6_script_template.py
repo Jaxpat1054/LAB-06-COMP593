@@ -20,7 +20,7 @@ def main():
         run_installer(installer_path)
 
         # Delete the VLC installer from disk
-       # delete_installer(installer_path)
+        delete_installer(installer_path)
 #DONE
 def get_expected_sha256():
     file_url = 'http://download.videolan.org/pub/videolan/vlc/3.0.18/win64/vlc-3.0.18-win64.exe.sha256'
